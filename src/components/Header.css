@@ -14,7 +14,7 @@
 }
 
 .logo {
-  height: 110px; /* Increase the size of the logo */
+  height: 110px;
   margin-right: 10px;
 }
 
@@ -32,7 +32,7 @@
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 30px; /* Increase gap for better spacing */
+  gap: 30px; 
   margin: 0;
   padding: 0;
 }
@@ -46,7 +46,7 @@
   color: #003366;
   text-decoration: none;
   font-family: 'Orbitron', sans-serif;
-  font-size: 1.2rem; /* Increase font size */
+  font-size: 1.2rem; 
 }
 
 .nav-links li a:hover {
@@ -60,12 +60,12 @@
   text-decoration: none;
   font-family: 'Orbitron', sans-serif;
   font-size: 1rem;
-  color: #000066; /* Ensure text is visible */
-  margin-left: 10px; /* Add space between the buttons */
+  color: #000066; 
+  margin-left: 10px; 
 }
 
 .login-button {
-  background-color: #00ffcc; /* Match the color of the talk-button */
+  background-color: #00ffcc; 
 }
 
 .talk-button {
@@ -96,6 +96,6 @@
   }
 
   .login-button, .talk-button {
-    margin-left: 0; /* Reset margin on smaller screens */
+    margin-left: 0; 
   }
 }
