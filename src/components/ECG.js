@@ -1,4 +1,3 @@
-// src/components/ECG.js
 import React from 'react';
 import './ECG.css';
 
