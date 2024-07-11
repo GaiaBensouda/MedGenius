@@ -1,0 +1,20 @@
+{
+  "home": {
+    "welcome": "Bienvenue chez MedGenius",
+    "description": "Votre conseiller personnalisé en traitement médical alimenté par l'IA."
+  },
+  "header": {
+    "home": "Accueil",
+    "about": "À propos",
+    "projects": "Projets",
+    "team": "Équipe",
+    "services": "Services",
+    "contact": "Contact",
+    "login": "Connexion",
+    "talkToExpert": "Parlez à un expert"
+  },
+  "about": {
+    "title": "À propos de nous",
+    "description": "MedGenius est une plateforme révolutionnaire alimentée par l'IA pour des conseils médicaux personnalisés."
+  }
+}

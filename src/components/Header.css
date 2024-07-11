@@ -1,0 +1,101 @@
+.header {
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #003366;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 110px; /* Increase the size of the logo */
+  margin-right: 10px;
+}
+
+.header h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.5rem;
+  color: #003366;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px; /* Increase gap for better spacing */
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links li a {
+  color: #003366;
+  text-decoration: none;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.2rem; /* Increase font size */
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+
+.login-button, .talk-button {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1rem;
+  color: #000066; /* Ensure text is visible */
+  margin-left: 10px; /* Add space between the buttons */
+}
+
+.login-button {
+  background-color: #00ffcc; /* Match the color of the talk-button */
+}
+
+.talk-button {
+  background-color: #00ffcc;
+}
+
+.login-button:hover, .talk-button:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .header h1 {
+    font-size: 1.5rem;
+  }
+
+  .nav-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .login-button, .talk-button {
+    margin-left: 0; /* Reset margin on smaller screens */
+  }
+}

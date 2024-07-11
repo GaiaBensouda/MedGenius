@@ -1,0 +1,35 @@
+/* src/components/Footer.css */
+.footer {
+    background-color: #111;
+    color: #0f0;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Orbitron', sans-serif;
+  }
+  
+  .footer p {
+    margin: 5px 0;
+  }
+  
+  .footer .socials {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .footer .socials li {
+    display: inline;
+  }
+  
+  .footer .socials li a {
+    color: #0f0;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer .socials li a:hover {
+    color: #fff;
+  }
+  

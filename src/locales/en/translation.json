@@ -1,0 +1,20 @@
+{
+  "home": {
+    "welcome": "Welcome to MedGenius",
+    "description": "Your personalized medical treatment advisor powered by AI."
+  },
+  "header": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "team": "Team",
+    "services": "Services",
+    "contact": "Contact",
+    "login": "Login",
+    "talkToExpert": "Talk to Expert"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "MedGenius is a revolutionary AI-driven platform for personalized medical advice."
+  }
+}

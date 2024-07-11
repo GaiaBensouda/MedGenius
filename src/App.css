@@ -1,0 +1,44 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  background-color: white;
+  color: #003366;
+  font-family: 'Orbitron', sans-serif;
+  padding: 20px;
+}
+
+.home, .about, .project {
+  padding: 50px 20px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.heartbeat {
+  margin: 20px auto;
+  width: 100%;
+  max-width: 800px;
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 0.875rem;
+  }
+
+  .heartbeat {
+    width: 100%;
+  }
+}
