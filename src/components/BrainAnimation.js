@@ -1,6 +1,6 @@
 import React from 'react';
 import Lottie from 'react-lottie';
-import brainAnimationData from './assets/brain.json'; // Path to your brain animation JSON file
+import brainAnimationData from './assets/brain.json'; 
 
 const BrainAnimation = () => {
   const defaultOptions = {
