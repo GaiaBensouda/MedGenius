@@ -1,4 +1,3 @@
-// src/components/Team.js
 import React from 'react';
 import './Team.css';
 import TeamMember from './TeamMember';
