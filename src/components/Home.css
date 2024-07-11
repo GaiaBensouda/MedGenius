@@ -1,19 +1,18 @@
-/* src/components/Home.css */
 .home {
   text-align: center;
   padding: 20px;
-  background-color: white; /* Set background to white */
+  background-color: white; 
 }
 
 .welcome-section {
   padding: 50px 20px;
-  background-color: white; /* Ensure background is white */
+  background-color: white; 
   color: #003366;
   font-family: 'Orbitron', sans-serif;
 }
 
 .welcome-title {
-  font-size: 4rem; /* Increase font size */
+  font-size: 4rem; 
   margin-bottom: 20px;
 }
 
