@@ -1,4 +1,3 @@
-/* Header.css */
 .header {
   display: flex;
   justify-content: space-between;
@@ -14,7 +13,7 @@
 }
 
 .header-logo {
-  width: 80px; /* Adjust the size of the logo here */
+  width: 80px; 
   margin-right: 10px;
 }
 
@@ -22,7 +21,7 @@
   font-size: 2.5em;
   font-weight: 700;
   color: #003366;
-  font-family: 'Montserrat', sans-serif; /* Ensure the title uses Montserrat */
+  font-family: 'Montserrat', sans-serif; 
 }
 
 .header-links {
@@ -35,7 +34,7 @@
   font-weight: bold;
   color: #003366;
   text-decoration: none;
-  font-family: 'Montserrat', sans-serif; /* Ensure the links use Montserrat */
+  font-family: 'Montserrat', sans-serif; 
 }
 
 .header-links .button {
@@ -45,7 +44,7 @@
   border-radius: 5px;
   margin-left: 10px;
   text-decoration: none;
-  font-family: 'Montserrat', sans-serif; /* Ensure the button uses Montserrat */
+  font-family: 'Montserrat', sans-serif; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.2s;
 }
