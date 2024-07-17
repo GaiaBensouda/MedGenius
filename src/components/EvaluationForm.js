@@ -10,7 +10,6 @@ const EvaluationForm = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Logique pour évaluer les risques
     console.log({ age, weight, smoking, drinking });
   };
 
