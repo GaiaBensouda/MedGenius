@@ -1,4 +1,4 @@
-/* src/components/EvaluationForm.css */
+
 .evaluation-form-container {
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1rem;
-    margin-left: 20px; /* Increased space between label and input */
+    margin-left: 20px; 
   }
   
   .submit-btn {
