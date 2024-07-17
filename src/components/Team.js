@@ -1,6 +1,6 @@
 import React from 'react';
 import './Team.css';
-import TeamMember from './TeamMember'; // Import the TeamMember component
+import TeamMember from './TeamMember'; 
 
 const Team = () => {
   const teamMembers = [
