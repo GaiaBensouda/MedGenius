@@ -2,7 +2,7 @@ import React from 'react';
 import './UserDashboard.css';
 
 const UserDashboard = () => {
-  const userName = "John Doe"; // Placeholder for the user's name
+  const userName = "John Doe"; //
   const healthMetrics = [
     { metric: "Weight", value: "70 kg" },
     { metric: "Blood Pressure", value: "120/80" },
