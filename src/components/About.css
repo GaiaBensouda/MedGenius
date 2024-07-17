@@ -1,18 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
-/* src/components/About.css */
 .about {
   text-align: center;
   padding: 50px 20px;
   background-color: white;
   color: #003366;
-  font-family: 'Montserrat', sans-serif; /* Apply Montserrat font */
+  font-family: 'Montserrat', sans-serif; 
 }
 
 .about h2 {
   font-size: 3rem;
   margin-bottom: 20px;
-  font-family: 'Montserrat', sans-serif; /* Apply Montserrat font */
+  font-family: 'Montserrat', sans-serif; 
 }
 
 .about p {
@@ -20,7 +19,7 @@
   line-height: 1.5;
   max-width: 800px;
   margin: 0 auto;
-  font-family: 'Montserrat', sans-serif; /* Apply Montserrat font */
+  font-family: 'Montserrat', sans-serif; 
 }
 
 @media (max-width: 768px) {
