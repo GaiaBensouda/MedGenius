@@ -1,7 +1,5 @@
-/* Home.css */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
-/* Home.css */
 .home {
   text-align: center;
   background-color: white;
@@ -16,7 +14,7 @@
 }
 
 .home-logo {
-  width: 200px; /* Adjust the size of the logo here */
+  width: 200px; 
   margin-bottom: 10px;
 }
 
@@ -24,7 +22,7 @@
   font-size: 3em;
   font-weight: 700;
   color: #003366;
-  font-family: 'Montserrat', sans-serif; /* Ensure the title uses Montserrat */
+  font-family: 'Montserrat', sans-serif; 
 }
 
 .home-catchphrase {
@@ -32,7 +30,7 @@
   font-weight: bold;
   color: #003366;
   margin: 10px 0;
-  font-family: 'Montserrat', sans-serif; /* Ensure the catchphrase uses Montserrat */
+  font-family: 'Montserrat', sans-serif; 
   animation: fadeIn 3s ease-in;
 }
 
@@ -46,7 +44,7 @@
   overflow: hidden;
   white-space: nowrap;
   animation: typing 4s steps(40, end), blink-caret 0.75s step-end infinite;
-  border-right: 4px solid #003366; /* Adjust caret color if needed */
+  border-right: 4px solid #003366; 
 }
 
 @keyframes typing {
@@ -61,19 +59,19 @@
 
 .home-join-button {
   display: inline-block;
-  background-color: #007BFF; /* Change to desired color */
+  background-color: #007BFF; 
   color: white;
   padding: 15px 30px;
   border-radius: 5px;
   text-decoration: none;
   margin-bottom: 40px;
-  font-family: 'Montserrat', sans-serif; /* Ensure the button uses Montserrat */
+  font-family: 'Montserrat', sans-serif;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.2s;
 }
 
 .home-join-button:hover {
-  background-color: #0056b3; /* Change to desired hover color */
+  background-color: #0056b3; 
   transform: translateY(-2px);
 }
 
@@ -91,7 +89,7 @@
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s;
-  font-family: 'Montserrat', sans-serif; /* Ensure the section uses Montserrat */
+  font-family: 'Montserrat', sans-serif; 
 }
 
 .home-section:hover {
@@ -104,5 +102,5 @@
   color: #003366;
   text-decoration: underline;
   font-weight: bold;
-  font-family: 'Montserrat', sans-serif; /* Ensure the link uses Montserrat */
+  font-family: 'Montserrat', sans-serif; 
 }
