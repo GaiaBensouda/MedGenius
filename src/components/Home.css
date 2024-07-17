@@ -1,29 +1,108 @@
-/* src/components/Home.css */
+/* Home.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* Home.css */
 .home {
   text-align: center;
-  padding: 20px;
-  background-color: white; /* Set background to white */
+  background-color: white;
+  padding: 40px 20px;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.welcome-section {
-  padding: 50px 20px;
-  background-color: white; /* Ensure background is white */
+.home-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-logo {
+  width: 200px; /* Adjust the size of the logo here */
+  margin-bottom: 10px;
+}
+
+.home-title {
+  font-size: 3em;
+  font-weight: 700;
   color: #003366;
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'Montserrat', sans-serif; /* Ensure the title uses Montserrat */
 }
 
-.welcome-title {
-  font-size: 4rem; /* Increase font size */
-  margin-bottom: 20px;
+.home-catchphrase {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #003366;
+  margin: 10px 0;
+  font-family: 'Montserrat', sans-serif; /* Ensure the catchphrase uses Montserrat */
+  animation: fadeIn 3s ease-in;
 }
 
-.welcome-section p {
-  font-size: 1.5rem;
-  line-height: 1.5;
-  max-width: 800px;
-  margin: 0 auto;
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
 
-.ecg-signal {
-  margin-top: 20px;
+.animated-text {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 4s steps(40, end), blink-caret 0.75s step-end infinite;
+  border-right: 4px solid #003366; /* Adjust caret color if needed */
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: #003366; }
+}
+
+.home-join-button {
+  display: inline-block;
+  background-color: #007BFF; /* Change to desired color */
+  color: white;
+  padding: 15px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-bottom: 40px;
+  font-family: 'Montserrat', sans-serif; /* Ensure the button uses Montserrat */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+
+.home-join-button:hover {
+  background-color: #0056b3; /* Change to desired hover color */
+  transform: translateY(-2px);
+}
+
+.home-sections {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.home-section {
+  flex: 1;
+  margin: 0 10px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  font-family: 'Montserrat', sans-serif; /* Ensure the section uses Montserrat */
+}
+
+.home-section:hover {
+  transform: translateY(-5px);
+}
+
+.learn-more {
+  display: inline-block;
+  margin-top: 10px;
+  color: #003366;
+  text-decoration: underline;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif; /* Ensure the link uses Montserrat */
 }

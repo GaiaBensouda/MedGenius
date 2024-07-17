@@ -1,60 +1,46 @@
-// src/components/Home.js
 import React from 'react';
-import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import './Home.css';
-import About from './About';
-import Project from './Project';
-import Team from './Team';
-
-const ecgVariants = {
-  initial: {
-    pathLength: 0,
-    opacity: 0,
-  },
-  animate: {
-    pathLength: 1,
-    opacity: 1,
-    transition: {
-      duration: 2,
-      ease: 'easeInOut',
-      repeat: Infinity,
-      repeatType: 'loop',
-    },
-  },
-};
+import MedicalNews from './MedicalNews'
+import HealthTips from './HealthTips'; // Import HealthTips component
 
 const Home = () => {
+  const { t } = useTranslation();
+
   return (
-    <div className="home" id="home">
-      <motion.h2 
-        initial={{ y: -50, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.5 }}
-        className="welcome-title"
-      >
-        Welcome to MedGenius
-      </motion.h2>
-      <motion.p 
-        initial={{ y: 50, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.5, delay: 0.3 }}
-      >
-        Your personalized medical treatment advisor powered by AI.
-      </motion.p>
-      <svg className="ecg-signal" viewBox="0 0 500 100">
-        <motion.path
-          d="M0 50 H100 V10 H200 V50 H300 V90 H400 V50 H500"
-          variants={ecgVariants}
-          initial="initial"
-          animate="animate"
-          stroke="blue"
-          strokeWidth="2"
-          fill="none"
-        />
-      </svg>
-      <About />
-      <Project />
-      <Team />
+    <div className="home">
+      <header className="home-header">
+        <img src={`${process.env.PUBLIC_URL}/images/MedGenius.png`} alt="MedGenius Logo" className="home-logo" />
+        <h1 className="home-title">MedGenius</h1>
+      </header>
+      <div className="home-content">
+        <h2 className="home-catchphrase">
+          <span className="animated-text">Your Personalized Medical Treatment Advisor Powered by AI</span>
+        </h2>
+        <Link to="/login" className="home-join-button">Join the Waitlist</Link>
+      </div>
+
+      <HealthTips /> {/* Add HealthTips component here */}
+
+      <div className="home-sections">
+        <div className="home-section">
+          <h3>Project</h3>
+          <p>This is a brief description of the project. Modify this text as needed to provide an overview of your project.</p>
+          <Link to="/project" className="learn-more">Learn More</Link>
+        </div>
+        <div className="home-section">
+          <h3>About</h3>
+          <p>Learn more about MedGenius and our mission to improve healthcare through innovative technology.</p>
+          <Link to="/about" className="learn-more">Learn More</Link>
+        </div>
+        <div className="home-section">
+          <h3>Team</h3>
+          <p>Meet the dedicated professionals behind MedGenius who are committed to improving healthcare.</p>
+          <Link to="/team" className="learn-more">Learn More</Link>
+        </div>
+      </div>
+      <MedicalNews /> {/* Add the MedicalNews component */}
     </div>
   );
 };

@@ -7,14 +7,27 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "animate.css": "^4.1.1",
+    "axios": "^1.7.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
     "fill-range": "^7.1.1",
     "framer-motion": "^11.3.2",
     "gh-pages": "^6.1.1",
-    "i18next": "^23.11.5",
+    "i18next": "^23.12.1",
+    "i18next-browser-languagedetector": "^8.0.0",
+    "i18next-http-backend": "^2.5.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.1",
+    "node-fetch": "^3.3.2",
+    "openai": "^4.52.7",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-i18next": "^14.1.2",
     "react-lottie": "^1.2.4",
+    "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.24.1",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
@@ -28,7 +41,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "start-server": "node server.js"
   },
   "eslintConfig": {
     "extends": [
@@ -48,5 +62,10 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://GaiaBensouda.github.io/medGenius"
+  "homepage": "https://GaiaBensouda.github.io/medGenius",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

@@ -1,25 +1,34 @@
-// src/components/Header.js
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import './Header.css';
 
 const Header = () => {
+  const { t, i18n } = useTranslation();
+
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+  };
+
   return (
     <header className="header">
-      <div className="logo-container">
-        <img src="/images/MedGenius.png" alt="MedGenius" className="logo" />
-        <h1>MedGenius</h1>
+      <div className="header-logo-title">
+        <img src={`${process.env.PUBLIC_URL}/images/MedGenius.png`} alt="MedGenius Logo" className="header-logo" />
+        <Link to="/" className="header-title">MedGenius</Link>
       </div>
-      <nav className="nav-container">
-        <ul className="nav-links">
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/about">About</Link></li>
-          <li><Link to="/projects">Projects</Link></li>
-          <li><Link to="/team">Team</Link></li>
-          <li><Link to="/auth" className="login-button">Login</Link></li>
-          <li><Link to="/contact" className="talk-button">Talk to Expert</Link></li>
-        </ul>
-      </nav>
+      <div className="header-links">
+        <Link to="/">{t('Home')}</Link>
+        <Link to="/project">{t('Project')}</Link>
+        <Link to="/about">{t('About')}</Link>
+        <Link to="/team">{t('Team')}</Link>
+        <Link to="/login" className="button">{t('Login')}</Link>
+        <Link to="/talktoexpert" className="button">Talk to Expert</Link>
+        <Link to="/userdashboard" className="button">Dashboard</Link>
+        <select onChange={(e) => changeLanguage(e.target.value)} className="language-select">
+          <option value="en">EN</option>
+          <option value="fr">FR</option>
+        </select>
+      </div>
     </header>
   );
 };

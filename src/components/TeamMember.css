@@ -1,48 +1,19 @@
-/* src/components/TeamMember.css */
 .team-member {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex: 1;
-    margin: 20px;
-    max-width: 200px;
-    text-align: center;
-  }
-  
-  .member-image {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 10px;
-  }
-  
-  .member-info {
-    text-align: center;
-  }
-  
-  .team-member h3 {
-    font-size: 1.5rem;
-    margin-bottom: 5px;
-  }
-  
-  .team-member p {
-    font-size: 1rem;
-    line-height: 1.4;
-  }
-  
-  .linkedin-link {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 5px 10px;
-    color: white;
-    background-color: #0077b5;
-    border-radius: 5px;
-    text-decoration: none;
-    font-family: 'Orbitron', sans-serif;
-  }
-  
-  .linkedin-link:hover {
-    background-color: #005582;
-  }
-  
+  text-align: center;
+  margin: 10px;
+  flex: 1;
+  min-width: 150px;
+}
+
+.team-member-image {
+  width: 100px; /* Smaller size for the team member image */
+  height: 100px; /* Smaller size for the team member image */
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.linkedin-logo {
+  width: 20px; /* Smaller size for the LinkedIn logo */
+  height: 20px; /* Smaller size for the LinkedIn logo */
+  margin-top: 10px;
+}

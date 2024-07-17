@@ -1,0 +1,16 @@
+{
+  "welcome": "Welcome to MedGenius",
+  "catchphrase": "Your personalized medical treatment advisor powered by AI.",
+  "login": "Login",
+  "register": "Register",
+  "email": "Email",
+  "password": "Password",
+  "project": "Project",
+  "about": "About",
+  "team": "Team",
+  "learn_more": "Learn More",
+  "talk_to_expert": "Talk to Expert",
+  "name": "Name",
+  "message": "Message",
+  "send": "Send"
+}

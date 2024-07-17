@@ -1,0 +1,49 @@
+/* MedicalNews.css */
+.medical-news {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .medical-news h2 {
+    font-size: 2em;
+    font-weight: 700;
+    color: #003366;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .article {
+    width: 300px;
+    background-color: white;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .article:hover {
+    transform: translateY(-5px);
+  }
+  
+  .article h3 {
+    font-size: 1.2em;
+    color: #003366;
+    margin-bottom: 10px;
+  }
+  
+  .article p {
+    font-size: 1em;
+    color: #666;
+  }
+  
+  .article a {
+    text-decoration: none;
+  }
+  
