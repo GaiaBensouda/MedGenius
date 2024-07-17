@@ -7,7 +7,6 @@ const Contact = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Logic to handle the message sending
     console.log({ email, message });
   };
 
