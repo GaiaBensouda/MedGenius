@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import './Home.css';
 import MedicalNews from './MedicalNews'
-import HealthTips from './HealthTips'; // Import HealthTips component
+import HealthTips from './HealthTips'; 
 
 const Home = () => {
   const { t } = useTranslation();
