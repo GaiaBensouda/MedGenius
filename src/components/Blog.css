@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
-/* Blog.css */
 .blog {
-  background-color: #f9f9f9; /* Light grey background */
+  background-color: #f9f9f9; 
   padding: 40px 20px;
   text-align: center;
-  font-family: 'Montserrat', sans-serif; /* Apply Montserrat font */
+  font-family: 'Montserrat', sans-serif; 
 }
 
 .animated-text {
@@ -13,11 +12,11 @@
   overflow: hidden;
   white-space: nowrap;
   animation: typing 4s steps(40, end), blink-caret 0.75s step-end infinite;
-  border-right: 4px solid #003366; /* Adjust caret color if needed */
+  border-right: 4px solid #003366; 
   font-size: 1.5em;
   font-weight: bold;
   color: #003366;
-  font-family: 'Montserrat', sans-serif; /* Ensure Montserrat font */
+  font-family: 'Montserrat', sans-serif; 
 }
 
 @keyframes typing {
@@ -37,7 +36,7 @@
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: left;
-  font-family: 'Montserrat', sans-serif; /* Ensure Montserrat font */
+  font-family: 'Montserrat', sans-serif; 
 }
 
 .blog-content p {
