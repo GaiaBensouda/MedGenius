@@ -1,10 +1,9 @@
-/* Login.css */
 .login {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: white; /* Light background for contrast */
+  background-color: white; 
   font-family: 'Montserrat', sans-serif;
 }
 
