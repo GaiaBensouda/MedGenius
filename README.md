@@ -37,3 +37,9 @@ Frontend done exclusively with React.js , backend using MongoDB
 
 4. Start the development server
    npm start
+
+## Contributions & Feedbacks
+
+We welcome contributions from the community. To contribute, please fork the repository and create a pull request with your changes. If you have any questions or feedbacks, please send at gaia.bensouda-korachi@polytechnique.edu
+
+
