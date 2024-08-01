@@ -25,7 +25,7 @@ Our mission is to improve the quality of life for our users by providing accurat
 
 ## Installation 
 Frontend done exclusively with React.js , backend using MongoDB
-1. Clone the repository:
+1. Clone the repository (MAIN BRANCH !!!!!)
    
    git clone https://github.com/GaiaBensouda/medGenius.git
 
