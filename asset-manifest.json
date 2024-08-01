@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/medGenius/static/css/main.538a7891.css",
-    "main.js": "/medGenius/static/js/main.240d9776.js",
+    "main.css": "/medGenius/static/css/main.30dc2c3f.css",
+    "main.js": "/medGenius/static/js/main.6be965f5.js",
     "index.html": "/medGenius/index.html",
-    "main.538a7891.css.map": "/medGenius/static/css/main.538a7891.css.map",
-    "main.240d9776.js.map": "/medGenius/static/js/main.240d9776.js.map"
+    "main.30dc2c3f.css.map": "/medGenius/static/css/main.30dc2c3f.css.map",
+    "main.6be965f5.js.map": "/medGenius/static/js/main.6be965f5.js.map"
   },
   "entrypoints": [
-    "static/css/main.538a7891.css",
-    "static/js/main.240d9776.js"
+    "static/css/main.30dc2c3f.css",
+    "static/js/main.6be965f5.js"
   ]
 }
