@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# MedGenius
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+MedGenius is a personalized medical treatment advisor powered by AI. Our platform aims to revolutionize healthcare by providing personalized medical care accessible to everyone. MedGenius empowers individuals to take control of their health through advanced technology and personalized care solutions.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Personal Health Information:** Users can input their personal health information, including age, weight, lifestyle habits (smoking, drinking), and medical history. The platform analyzes this data to provide customized health assessments and recommendations.
+- **Symptom Checker:** Users experiencing health concerns can input their symptoms into the AI-powered symptom checker. The system generates potential diagnoses and suggests appropriate next steps, including treatments and when to seek medical attention.
+- **Medical Records Storage:** Users can securely upload and store their medical records, vaccination history, and health documents. The platform helps track and manage these records, ensuring users always have access to their medical history.
+- **Treatment Planning:** Based on the user’s health data and assessments, the platform creates personalized treatment plans. Users receive reminders for medication, upcoming appointments, and recommended health checks.
+- **Continuous Health Monitoring:** Continuous health monitoring through integrated wearable devices and manual data entry. Real-time alerts for any concerning changes in health metrics, prompting immediate action if necessary.
+- **Consultations:** Users can schedule consultations with healthcare professionals directly through the platform. Access to a network of experts for personalized advice and second opinions.
+- **Wellness and Lifestyle Recommendations:** Customized lifestyle and wellness recommendations based on the user’s health data. Tips on diet, exercise, and stress management to promote overall well-being.
+- **Educational Content:** A comprehensive library of articles, videos, and tutorials on various health topics. Regular updates on the latest medical research and health trends.
+- **Community Support:** Forums and support groups where users can connect with others facing similar health challenges. A platform for sharing experiences, advice, and encouragement.
+- **Data Security:** State-of-the-art security measures to ensure all user data is protected. Compliance with global health data privacy regulations.
 
-### `npm start`
+## Vision
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+MedGenius aims to revolutionize healthcare by making personalized medical care accessible to everyone. Our vision is to empower individuals to take control of their health through advanced technology and personalized care solutions.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Mission
 
-### `npm test`
+Our mission is to improve the quality of life for our users by providing accurate, personalized, and timely healthcare solutions through the power of AI and technology. We strive to make healthcare more efficient, effective, and accessible.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation 
+Frontend done exclusively with React.js , backend using MongoDB
+1. Clone the repository:
+   
+   git clone https://github.com/GaiaBensouda/medGenius.git
 
-### `npm run build`
+2. Navigate to the project directory
+   cd medGenius
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Install dependencies
+    npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+4. Start the development server
+   npm start
